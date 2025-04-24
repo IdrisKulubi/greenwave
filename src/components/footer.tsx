@@ -1,6 +1,7 @@
 "use client";
 
 import { Leaf } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -20,30 +21,30 @@ export function Footer() {
           <div>
             <h3 className="font-medium text-slate-900 dark:text-slate-100 mb-4">Content</h3>
             <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Podcasts</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Articles</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Topics</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Contributors</a></li>
+              <li><Link href="/podcasts" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Podcasts</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">About</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Topics</Link></li>
+              <li><Link href="/submit" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Submit Article</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-medium text-slate-900 dark:text-slate-100 mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Press</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Contact</a></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">About</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Careers</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Press</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-medium text-slate-900 dark:text-slate-100 mb-4">Legal</h3>
             <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Terms</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Cookies</a></li>
-              <li><a href="#" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Licensing</a></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Terms</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Privacy</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Cookies</Link></li>
+              <li><Link href="/" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Licensing</Link></li>
             </ul>
           </div>
         </div>

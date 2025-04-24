@@ -2,8 +2,11 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export function HeroSection() {
+  const router = useRouter();
+
   return (
     <section className="relative overflow-hidden">
       {/* Background gradient & patterns */}
@@ -38,7 +41,11 @@ export function HeroSection() {
             <Button className="bg-emerald-600 hover:bg-emerald-700 text-white dark:bg-emerald-700 dark:hover:bg-emerald-600 px-6 py-6 rounded-full h-auto font-medium shadow-lg shadow-emerald-600/20 dark:shadow-emerald-900/30">
               Browse All Episodes
             </Button>
-            <Button variant="outline" className="border-emerald-600 text-emerald-700 hover:bg-emerald-50 dark:border-emerald-400 dark:text-emerald-300 dark:hover:bg-emerald-900/50 px-6 py-6 rounded-full h-auto font-medium">
+            <Button 
+              variant="outline" 
+              className="border-emerald-600 text-emerald-700 hover:bg-emerald-50 dark:border-emerald-400 dark:text-emerald-300 dark:hover:bg-emerald-900/50 px-6 py-6 rounded-full h-auto font-medium"
+              onClick={() => router.push("/submit")}
+            >
               Submit an Article
             </Button>
           </div>
