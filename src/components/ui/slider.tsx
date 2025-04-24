@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 "use client"
 
 import * as React from "react"
@@ -7,7 +8,7 @@ import { cn } from "@/lib/utils"
 
 const Slider = React.forwardRef<
   React.ElementRef<typeof SliderPrimitive.Root>,
-  React.ComponentPropsWithoutRef<typeof SliderPrimitive.Root>
+  React.ComponentPropsWithoutRef<typeof SliderPrimitive.Root> & { className?: string }
 >(({ className, ...props }, ref) => (
   <SliderPrimitive.Root
     ref={ref}

@@ -38,7 +38,7 @@ export function EmptySearch({ searchQuery, onReset }: EmptySearchProps) {
         <p className="text-slate-600 dark:text-slate-400 max-w-md mx-auto mb-8 leading-relaxed">
           {searchQuery ? (
             <>
-              We couldn&apos;t find any podcasts matching <span className="font-medium text-emerald-600 dark:text-emerald-400">"{searchQuery}"</span>. 
+              We couldn&apos;t find any podcasts matching <span className="font-medium text-emerald-600 dark:text-emerald-400">&quot;{searchQuery}&quot;</span>. 
               Try adjusting your search or browse all available episodes.
             </>
           ) : (

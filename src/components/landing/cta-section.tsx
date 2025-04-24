@@ -26,7 +26,7 @@ export function CtaSection() {
             Join the Environmental Audio Movement
           </h2>
           <p className="text-lg md:text-xl opacity-90 mb-10 max-w-2xl mx-auto">
-            Whether you're a content creator with environmental insights to share or a listener passionate about sustainability, GreenWave has something for you.
+            Whether you&apos;re a content creator with environmental insights to share or a listener passionate about sustainability, GreenWave has something for you.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

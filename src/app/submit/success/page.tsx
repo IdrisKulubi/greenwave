@@ -32,7 +32,7 @@ export default function SubmissionSuccessPage() {
           
           <div className="space-y-4">
             <p className="text-sm text-slate-500 dark:text-slate-500 max-w-md mx-auto">
-              If your article is selected, we'll work with you to transform it into an immersive podcast episode on GreenWave.
+              If your article is selected, we&apos;ll work with you to transform it into an immersive podcast episode on GreenWave.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
