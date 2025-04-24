@@ -9,19 +9,19 @@ export function Testimonials() {
       quote: "GreenWave transformed my research article into an engaging podcast that reached thousands of listeners interested in renewable energy solutions.",
       author: "Dr. Sarah Johnson",
       role: "Environmental Scientist",
-      avatar: "/avatars/avatar-1.png" // Placeholder
+      avatar: "/avatars/avatar-1.png"
     },
     {
       quote: "As someone always on the go, GreenWave has become my favorite way to stay informed about environmental issues while commuting or exercising.",
       author: "Michael Torres",
       role: "Sustainability Advocate",
-      avatar: "/avatars/avatar-2.png" // Placeholder
+      avatar: "/avatars/avatar-2.png" 
     },
     {
       quote: "The production quality is outstanding. My article on ocean conservation reached an entirely new audience through the GreenWave podcast format.",
       author: "Emma Chen",
       role: "Marine Biologist",
-      avatar: "/avatars/avatar-3.png" // Placeholder
+      avatar: "/avatars/avatar-3.png" 
     }
   ];
 
@@ -56,7 +56,7 @@ export function Testimonials() {
               <Quote className="h-10 w-10 text-emerald-300 dark:text-emerald-800 absolute right-6 top-6" />
               
               <p className="text-slate-700 dark:text-slate-300 mb-6 relative z-10">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
               
               <div className="flex items-center">

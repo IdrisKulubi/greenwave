@@ -22,11 +22,9 @@ export function useAudio(src: string): UseAudioReturn {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   
   useEffect(() => {
-    // Create audio element if it doesn't exist
     if (!audioRef.current) {
       audioRef.current = new Audio(src);
       
-      // Set up event listeners
       audioRef.current.addEventListener("loadedmetadata", () => {
         setDuration(audioRef.current?.duration || 0);
       });
@@ -43,7 +41,6 @@ export function useAudio(src: string): UseAudioReturn {
       });
     }
     
-    // Clean up event listeners on unmount
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();

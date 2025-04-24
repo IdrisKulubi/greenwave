@@ -89,7 +89,6 @@ export function HeroSection() {
               <div className="w-[250px] h-[250px] md:w-[350px] md:h-[350px] rounded-full bg-emerald-200/50 dark:bg-emerald-800/30 animate-pulse-slow blur-lg" />
             </motion.div>
             
-            {/* Floating circles with enhanced animations */}
             <motion.div 
               className="absolute w-12 h-12 rounded-full bg-emerald-300/30 dark:bg-emerald-700/30 top-[20%] right-[15%] blur-sm z-0"
               animate={{ 
@@ -117,7 +116,6 @@ export function HeroSection() {
               }}
             />
             
-            {/* Additional floating element */}
             <motion.div 
               className="absolute w-10 h-10 rounded-full bg-emerald-500/20 dark:bg-emerald-500/20 bottom-[40%] right-[25%] blur-sm z-0"
               animate={{ 
@@ -132,10 +130,8 @@ export function HeroSection() {
               }}
             />
             
-            {/* Image Layout Container - Using absolute positioning for precise control */}
             <div className="absolute w-full h-full transform-style-3d">
             
-              {/* Left Image (podcast3.jpg) */}
               <motion.div
                 className="absolute top-1/2 left-[calc(50%-180px)] md:left-[calc(50%-200px)] w-[280px] h-[280px] md:w-[340px] md:h-[340px] rounded-xl overflow-hidden shadow-lg origin-center z-10"
                 style={{ transformStyle: "preserve-3d" }}
@@ -165,7 +161,6 @@ export function HeroSection() {
                 </div>
               </motion.div>
 
-              {/* Right Image (podcast2.jpg) */}
               <motion.div
                 className="absolute top-1/2 left-[calc(50%+180px)] md:left-[calc(50%+200px)] w-[280px] h-[280px] md:w-[340px] md:h-[340px] rounded-xl overflow-hidden shadow-lg origin-center z-10"
                 style={{ transformStyle: "preserve-3d" }}
@@ -195,7 +190,6 @@ export function HeroSection() {
                 </div>
               </motion.div>
 
-              {/* Center Image (podcast-lady.jpg) */}
               <motion.div
                 className="absolute top-1/2 left-1/2 w-[300px] h-[300px] md:w-[380px] md:h-[380px] rounded-xl overflow-hidden shadow-2xl origin-center z-20"
                 style={{ transformStyle: "preserve-3d" }}
@@ -227,7 +221,6 @@ export function HeroSection() {
               
             </div>
             
-            {/* Enhanced animated shadow */}
             <motion.div
               className="absolute bottom-5 md:bottom-10 left-1/2 transform -translate-x-1/2 w-[70%] md:w-[60%] h-8 bg-black/15 dark:bg-black/30 rounded-full blur-xl z-0"
               initial={{ opacity: 0, width: "40%" }}
