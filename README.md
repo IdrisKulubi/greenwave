@@ -5,7 +5,7 @@ GreenWave is a modern web application that transforms environmental articles int
 ## ✨ Core Features
 
 *   **Article-to-Podcast Conversion:** (Core concept) Transforms written environmental content into listenable podcast episodes.
-*   **Featured Podcasts:** Highlights curated environmental podcasts.
+*   **Featured Podcasts:** Highlights curated environmental podcasts nicely.
 *   **Interactive Podcast Player:** A custom, visually engaging audio player with playback controls, volume adjustment, seeking, and an audio visualizer.
 *   **Responsive Design:** Fully responsive interface built with Tailwind CSS and Shadcn UI.
 *   **Smooth Animations:** Engaging user experience enhanced with Framer Motion animations.
