@@ -28,7 +28,7 @@ Follow these steps to get the project running locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <https://github.com/IdrisKulubi/greenwave>
+    git clone https://github.com/IdrisKulubi/greenwave
     cd greenwave
     ```
 
