@@ -40,6 +40,9 @@ export function Navbar() {
           <Link href="/submit" className="font-medium text-slate-700 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 transition-colors">
             Submit Article
           </Link>
+          <Link href="/greenwave-coin" className="font-medium text-slate-700 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 transition-colors">
+            GreenWave Coin
+          </Link>
         </nav>
 
         <div className="flex items-center gap-4">
